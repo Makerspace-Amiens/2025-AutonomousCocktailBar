@@ -6,20 +6,29 @@ title: Objectifs du projet
 
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+
+Dans les environnements festifs ou événementiels, la rapidité et la précision de service sont essentielles.  Ce projet vise à automatiser la distribution de boissons à l’aide d’un système motorisé précis, pour garantir un dosage fiable et répétable.
 
 ## Contexte du Projet
 
-Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
 
 ## Objectifs du Projet
 
-Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede.
+Objectifs:
+Créer une machine capable de verser automatiquement une boisson.
+
+Utiliser un moteur pas à pas pour contrôler la position.
+
+S’assurer d’un volume précis (50 mL) à chaque service.
+
+Construire une structure solide et modulaire en profilés aluminium.
 
 # Existant
+Voici quelques projets déjà existant:
 
-Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio.
+![bar](image/bar.png)
 
+![photobar](image/photobar.png)
 # Cahier des Charges
 
-Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et, tellus.
+
