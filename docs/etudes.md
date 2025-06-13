@@ -63,6 +63,9 @@ Nombreuses entrées/sorties compatibles avec les capteurs, moteurs et drivers.
 ![Capture d'écran 2025-06-12 131614](https://github.com/user-attachments/assets/0c802511-6e39-47a3-bc38-38ce220e1d6d)
 (photo esp 32)
 
+
+
+
 4. 🔧 Structure mécanique
 🔍 Alternatives étudiées :
 Bois ou contreplaqué : simple mais peu durable.
