@@ -26,6 +26,5 @@ Voici notre affiche de notre projet
 
 Voici la vidéo de notre projet 
 
-https://github.com/user-attachments/assets/a3376038-5e57-4922-81f4-af23be5d0b77
-
+! [vidéo projet](images/video%20projet%20bar%20à%20cocktail.mp4)
 
