@@ -81,6 +81,6 @@ Maintenez une zone de travail propre et bien éclairée.
 Respectez les consignes de sécurité des outils électriques (scie, fer à souder…).
 
 Manipulez les composants électroniques avec précaution pour éviter les décharges électrostatiques (notamment l’ESP32).
----
+
 
 Une fois cette étape terminée, passez à l'[Assemblage](/assemblage).
