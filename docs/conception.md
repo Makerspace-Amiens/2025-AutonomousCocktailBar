@@ -31,13 +31,13 @@ Alimentation de l’ESP32 : via USB ou régulateur 5V
 Condensateur de filtrage : utilisé pour stabiliser la tension côté moteur
 
 ![Capture d'écran 2025-06-12 134458](https://github.com/user-attachments/assets/ca00c66c-009b-499a-8ebf-0c6cd8e9b7cd)
-
+---
 🔹 Broches utilisées (ESP32) :
 DIR_PIN = GPIO12 → définit la direction du moteur
 
 STEP_PIN = GPIO14 → envoie les impulsions de déplacement
 ![1000010292](https://github.com/user-attachments/assets/e588fd2f-590b-4be2-8898-19f78f92294d)
-
+---
 🔹 Sécurité
 L’architecture prévoit la possibilité d’ajouter des capteurs de fin de course ou un système de détection de blocage via la technologie StallGuard du TMC2209.
 
