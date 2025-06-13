@@ -17,6 +17,7 @@ Le support est conçu pour maintenir le verre de manière stable, tout en étant
 Le support se déplace le long du rail grâce à des roues V-slot, assurant un mouvement fluide, silencieux et linéaire. Ce système garantit un déplacement précis et sans vibrations.
 
 ![1000010290](https://github.com/user-attachments/assets/d1181ff5-d5a9-4d55-86e6-ce348d41b22b)
+---
 2. ⚡ Conception électronique
 🔹 Schéma de principe
 Microcontrôleur : ESP32 NodeMCU
