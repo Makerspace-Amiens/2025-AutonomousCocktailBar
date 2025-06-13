@@ -43,7 +43,7 @@ Voici quelques projets déjà existant:
 ![bar](https://github.com/user-attachments/assets/c1450a17-d198-4b34-b6da-00b86ae5bcd2)
 
 Nous nous sommes inspirés de ces différents dans la conception, la modélisation et aussi pour comprendre comment le coder. 
----
+
 # Cahier des Charges
 
 1. Contexte du projet
