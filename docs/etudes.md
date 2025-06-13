@@ -26,6 +26,7 @@ Compatible avec des systèmes de guidage linéaire par courroie.
 Adapté aux mouvements discrets et répétables du support de verre.
 
 ![Capture d'écran 2025-06-12 130628](https://github.com/user-attachments/assets/2db0f274-1c60-4c39-b6f7-e56a1bb87078)
+---
 ( photo du moteur) 
 2. 🔌 Pilotage moteur
 🔍 Étude des drivers disponibles :
@@ -45,6 +46,7 @@ StealthChop2 : garantit un fonctionnement silencieux et fluide.
 Parfaitement compatible avec l’ESP32 en mode STEP/DIR.
 
 ![Capture d'écran 2025-06-12 131431](https://github.com/user-attachments/assets/f55a1ed0-11e2-4e6b-9e96-9b2195e9bc25)
+---
 (photo TMC2209)
 3. ⚡ Architecture électronique
 🔍 Solutions étudiées :
@@ -63,7 +65,7 @@ Nombreuses entrées/sorties compatibles avec les capteurs, moteurs et drivers.
 ![Capture d'écran 2025-06-12 131614](https://github.com/user-attachments/assets/0c802511-6e39-47a3-bc38-38ce220e1d6d)
 (photo esp 32)
 
-
+---
 
 
 4. 🔧 Structure mécanique
