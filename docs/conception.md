@@ -54,7 +54,7 @@ Chaque action déclenche le déplacement du verre dans la direction correspondan
 🔹 Interaction utilisateur
 L’utilisateur se connecte au réseau Wi-Fi créé par l’ESP32 : « ESP32-BarAuto »
 
-Il accède à l’interface web via l’adresse : http://192.168.4.1
+Il accède à l’interface web via l'adresse ip de l'ESP 32
 
 Une page HTML, stylisée en CSS, s’affiche avec deux boutons de commande
 
