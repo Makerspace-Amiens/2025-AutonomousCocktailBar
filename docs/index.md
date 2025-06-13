@@ -21,5 +21,3 @@ Ce projet consiste à créer une machine capable de verser automatiquement une b
 Voici notre affiche de notre projet 
 
 ![Poster projet](images/poster.jpg.jpg)
-
-
