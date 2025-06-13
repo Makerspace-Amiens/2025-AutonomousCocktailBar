@@ -51,11 +51,20 @@ Contrôlez visuellement et à l’aide d’un multimètre la bonne connexion des
 Assurez-vous que l’alimentation du moteur et celle de l’ESP32 sont correctement séparées.
 
 ## Problèmes Communs et Solutions
-| Problème                                   | Cause probable                              | Solution                                          |
-| ------------------------------------------ | ------------------------------------------- | ------------------------------------------------- |
-| Les pièces ne s’emboîtent pas correctement | Découpe imprécise ou mauvais alignement     | Vérifiez les dimensions et réalignez les éléments |
-| La courroie glisse ou saute                | Mauvaise tension ou poulie mal fixée        | Ajustez la tension et resserrez la poulie         |
-| Le support de verre se bloque              | Roues mal montées ou profilés mal alignés   | Resserrer les roues et réaligner les rails        |
-| Le moteur ne réagit pas                    | Mauvais câblage ou alimentation défectueuse | Refaire les connexions, tester avec un multimètre |
+Lors de l’assemblage du bar à cocktail automatique, plusieurs problèmes peuvent apparaître. Voici une liste des cas fréquents, avec leurs causes probables et les solutions correspondantes :
 
+Les pièces ne s’emboîtent pas correctement
+Cause probable : une découpe imprécise ou un mauvais alignement des éléments.
+Solution : vérifier les dimensions et réaligner soigneusement les composants.
 
+La courroie glisse ou saute
+Cause probable : tension insuffisante ou poulie mal fixée.
+Solution : ajuster correctement la tension de la courroie et resserrer la poulie.
+
+Le support de verre se bloque lors du déplacement
+Cause probable : montage incorrect des roues ou mauvais alignement des profilés.
+Solution : revisser les roues et vérifier l’alignement des rails.
+
+Le moteur ne réagit pas
+Cause probable : câblage incorrect ou problème d’alimentation.
+Solution : vérifier et refaire les connexions, puis tester l’alimentation avec un multimètre.
