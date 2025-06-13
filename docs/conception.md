@@ -5,61 +5,58 @@ title: Conception et prototypage
 ---
 
 # Conception et prototypage
-Cette section décrit la conception mécanique, électronique et logicielle du bar à cocktail automatique. Elle regroupe les plans, schémas et choix retenus pour assurer un fonctionnement fiable et cohérent.
-
-1. Conception mécanique
+1. 🛠️ Conception mécanique
 🔹 Structure
-Réalisée à partir de profilés aluminium V-slot pour leur modularité, solidité et compatibilité avec les roues de guidage.
-
-Longueur totale : environ 660 cm de profilés, découpés pour former un rail linéaire sur lequel le support du verre peut se déplacer.
+La structure du système est construite à partir de profilés aluminium V-slot, choisis pour leur solidité, leur modularité et leur compatibilité avec les systèmes de guidage à roulettes.
+Environ 6,6 mètres de profilés ont été découpés pour former un rail linéaire permettant le déplacement du support de verre.
 
 🔹 Support de verre
-Conçu pour maintenir fermement le verre tout en étant assez léger pour ne pas surcharger le moteur.
-
-Fixé à une courroie crantée qui transmet le mouvement via une poulie entraînée par le moteur pas à pas.
+Le support est conçu pour maintenir le verre de manière stable, tout en étant suffisamment léger pour ne pas surcharger le moteur. Il est fixé à une courroie crantée, entraînée par une poulie connectée au moteur pas à pas.
 
 🔹 Guidage
-Utilisation de roues V-slot pour un glissement fluide du support sur le rail.
+Le support se déplace le long du rail grâce à des roues V-slot, assurant un mouvement fluide, silencieux et linéaire. Ce système garantit un déplacement précis et sans vibrations.
 
-Le système permet un déplacement linéaire précis et silencieux.
-
-2. Conception électronique
+2. ⚡ Conception électronique
 🔹 Schéma de principe
-Microcontrôleur : ESP32 NodeMCU.
+Microcontrôleur : ESP32 NodeMCU
 
-Driver moteur : TMC2209 connecté en mode STEP/DIR.
+Driver moteur : TMC2209, connecté en mode STEP/DIR
 
-Alimentation moteur : source 12V dédiée.
+Alimentation moteur : source 12V dédiée
 
-Alimentation ESP32 : via USB ou régulateur 5V.
+Alimentation de l’ESP32 : via USB ou régulateur 5V
 
-Condensateur de filtrage : pour stabiliser la tension moteur.
+Condensateur de filtrage : utilisé pour stabiliser la tension côté moteur
 
-Broches utilisées :
+![Capture d'écran 2025-06-12 134458](https://github.com/user-attachments/assets/ca00c66c-009b-499a-8ebf-0c6cd8e9b7cd)
 
-DIR_PIN = GPIO12 → direction du moteur
+![1000010292](https://github.com/user-attachments/assets/e588fd2f-590b-4be2-8898-19f78f92294d)
 
-STEP_PIN = GPIO14 → impulsions de déplacement
+🔹 Broches utilisées (ESP32) :
+DIR_PIN = GPIO12 → définit la direction du moteur
+
+STEP_PIN = GPIO14 → envoie les impulsions de déplacement
 
 🔹 Sécurité
-Possibilité d'ajouter ultérieurement des capteurs de fin de course ou de blocage via StallGuard.
+L’architecture prévoit la possibilité d’ajouter des capteurs de fin de course ou un système de détection de blocage via la technologie StallGuard du TMC2209.
 
-Alimentation séparée pour éviter les pics de courant sur l’ESP32.
+L’alimentation du moteur est séparée de celle de l’ESP32, afin d’éviter tout pic de courant sur le microcontrôleur.
 
-3. Conception logicielle
+3. 💻 Conception logicielle
 🔹 Fonctionnalités
-Serveur web intégré dans l’ESP32, accessible en Wi-Fi.
+Le système intègre un serveur web embarqué directement sur l’ESP32, accessible via Wi-Fi.
+L’interface propose deux actions principales :
 
-Interface web intuitive avec deux boutons : Service à gauche et Service à droite.
+Service à gauche
 
-Commande directe du moteur via impulsions STEP/DIR selon la direction souhaitée.
+Service à droite
+Chaque action déclenche le déplacement du verre dans la direction correspondante à l’aide d’impulsions STEP/DIR.
 
 🔹 Interaction utilisateur
-L'utilisateur se connecte au Wi-Fi « ESP32-BarAuto ».
+L’utilisateur se connecte au réseau Wi-Fi créé par l’ESP32 : « ESP32-BarAuto »
 
-Il accède à l’interface en ouvrant http://192.168.4.1 dans son navigateur.
+Il accède à l’interface web via l’adresse : http://192.168.4.1
 
-Une page HTML stylisée s’affiche avec les deux boutons.
+Une page HTML, stylisée en CSS, s’affiche avec deux boutons de commande
 
-En cliquant, une requête est envoyée à l’ESP32 qui déclenche le déplacement du verre.
-
+Lorsqu’un bouton est cliqué, une requête HTTP est envoyée à l’ESP32, qui pilote le moteur en conséquence
