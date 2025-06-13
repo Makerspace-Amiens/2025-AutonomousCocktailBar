@@ -6,7 +6,6 @@ title: Objectifs du projet
 
 # Introduction
 
-
 Dans les environnements festifs ou événementiels, la rapidité et la précision de service sont essentielles.  Ce projet vise à automatiser la distribution de boissons à l’aide d’un système motorisé précis, pour garantir un dosage fiable et répétable.
 
 ## Contexte du Projet
@@ -39,8 +38,10 @@ Construire une structure solide et modulaire en profilés aluminium.
 # Existant
 Voici quelques projets déjà existant:
 
-![bar](image/bar.png)
-![photobar](image/photobar.png)
+![photobar](https://github.com/user-attachments/assets/d58fdc30-c093-41d5-b9dd-8c3748cd9a61)
+
+![bar](https://github.com/user-attachments/assets/c1450a17-d198-4b34-b6da-00b86ae5bcd2)
+
 
 Nous nous sommes inspirés de ces différents dans la conception, la modélisation et aussir pour comprendre comment le coder. 
 # Cahier des Charges
@@ -124,19 +125,6 @@ Ajout de capteurs de niveau de liquide ou fin de course.
 Souhaites-tu que je t’aide à rédiger aussi l’introduction du rapport ou une autre section comme la conception mécanique ou la programmation ?
 
 
-
-
-
-
-
-
-Vous avez dit :
-ma prochaine partie porte sur le Études et choix techniques peux tu m'aider 
-
-
-ChatGPT a dit :
-Avec plaisir ! Voici comment structurer la partie "Études et choix techniques" de ton rapport de manière claire et professionnelle, en te basant sur ton projet de bar à cocktail automatique piloté par ESP32.
-
 🔧 Études et choix techniques
 Cette partie présente les différentes solutions étudiées pour chaque composant ou sous-système du projet, ainsi que les raisons motivant les choix finaux. Elle justifie l’architecture retenue du point de vue mécanique, électronique et logiciel.
 
@@ -147,7 +135,6 @@ Plusieurs plateformes ont été envisagées : Arduino UNO, Raspberry Pi, ESP32.
 Critères : connectivité, puissance de calcul, nombre d’E/S, consommation.
 
 ✅ Choix : ESP32
-Microcontrôleur double cœur performant.
 
 Connectivité Wi-Fi et Bluetooth intégrées.
 
