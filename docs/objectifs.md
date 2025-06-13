@@ -46,10 +46,10 @@ Nous nous sommes inspirés de ces différents dans la conception, la modélisati
 
 # Cahier des Charges
 
-1. Contexte du projet
+- Contexte du projet
 Le projet consiste à concevoir un bar à cocktail automatique, capable de préparer des boissons de manière autonome. Ce système vise à simplifier la préparation de cocktails en assurant précision, rapidité, et interaction simple via une interface utilisateur connectée. Ce projet s’inscrit dans une démarche d’automatisation ludique, combinant électronique, programmation et mécanique.
 
-2. Objectifs fonctionnels
+- Objectifs fonctionnels
 Le système doit être capable de :
 
 Déplacer automatiquement un verre le long d’un rail.
@@ -62,7 +62,7 @@ Offrir une interaction simple et en temps réel via Wi-Fi.
 
 Permettre l’ajout de plusieurs recettes/cocktails différents.
 
-3. Contraintes techniques
+-Contraintes techniques
 Précision du dosage : ±5 mL par service.
 
 Motorisation : moteur pas à pas piloté par un driver TMC2209.
@@ -77,7 +77,7 @@ Interface : serveur web embarqué, accessible via smartphone ou PC.
 
 Alimentation : batterie ou alimentation 12V.
 
-4. Contraintes matérielles
+- Contraintes matérielles
 Dimensions compactes (transportable sur une table).
 
 Utilisation de composants abordables et facilement disponibles.
@@ -86,7 +86,7 @@ Robustesse de l’assemblage (support verre stable).
 
 Modularité : possibilité d’ajouter d’autres moteurs ou bouteilles.
 
-5. Contraintes logicielles
+- Contraintes logicielles
 Utilisation de l’environnement Arduino IDE.
 
 Programmation en C++ (Arduino).
@@ -95,7 +95,7 @@ Interface HTML/CSS simple intégrée dans le code ESP32.
 
 Réponse en temps réel aux commandes utilisateur (latence minimale).
 
-6. Performances attendues
+-Performances attendues
 Déplacement du verre précis et fluide.
 
 Fonctionnement silencieux grâce au StealthChop2 du TMC2209.
@@ -104,7 +104,7 @@ Réduction de la consommation électrique (CoolStep activable).
 
 Interaction utilisateur intuitive via page web (interface responsive).
 
-7. Critères de validation
+- Critères de validation
 Le verre peut se déplacer automatiquement de gauche à droite.
 
 Un moteur peut distribuer une dose fixe de liquide (mesure simulée si nécessaire).
@@ -113,7 +113,7 @@ L’utilisateur peut contrôler le système via Wi-Fi.
 
 Le support assure la stabilité du verre pendant les déplacements.
 
-8. Améliorations possibles
+- Améliorations possibles
 Intégration d’un système de levage du verre pour le service.
 
 Ajout d’un écran de contrôle local (OLED ou TFT).
@@ -128,7 +128,7 @@ Souhaites-tu que je t’aide à rédiger aussi l’introduction du rapport ou un
 🔧 Études et choix techniques
 Cette partie présente les différentes solutions étudiées pour chaque composant ou sous-système du projet, ainsi que les raisons motivant les choix finaux. Elle justifie l’architecture retenue du point de vue mécanique, électronique et logiciel.
 
-1. Choix du système d’automatisation
+- Choix du système d’automatisation
 🔍 Étude :
 Plusieurs plateformes ont été envisagées : Arduino UNO, Raspberry Pi, ESP32.
 
@@ -142,7 +142,7 @@ Suffisamment de broches PWM, digitales et UART.
 
 Idéal pour héberger un serveur web local sans matériel supplémentaire.
 
-2. Choix du moteur
+- Choix du moteur
 🔍 Étude :
 Moteur DC : rotation continue mais nécessite un encodeur pour le contrôle précis.
 
@@ -157,7 +157,7 @@ Couple suffisant pour déplacer un verre sur rail.
 
 Facilement contrôlable via un driver dédié.
 
-3. Choix du driver moteur
+- Choix du driver moteur
 🔍 Étude :
 A4988 : économique, mais bruyant et peu de fonctions intelligentes.
 
@@ -172,7 +172,7 @@ CoolStep : adapte le courant pour réduire la consommation.
 
 StealthChop2 : permet un fonctionnement très silencieux.
 
-4. Choix de la structure mécanique
+- Choix de la structure mécanique
 🔍 Étude :
 Structures imprimées en 3D : légères mais moins robustes.
 
@@ -187,7 +187,7 @@ Modularité pour ajuster la taille ou ajouter des composants.
 
 Facile à assembler avec des pièces standards (roues, pignons, etc.).
 
-5. Choix du système de contrôle
+- Choix du système de contrôle
 🔍 Étude :
 Interface via bouton physique (simple mais non connectée).
 
@@ -202,7 +202,7 @@ Interface HTML/CSS simple avec deux boutons de commande (gauche / droite).
 
 Contrôle du moteur en temps réel via Wi-Fi.
 
-6. Choix du système de mesure (option non finalisée)
+- Choix du système de mesure (option non finalisée)
 🔍 Étude :
 Capteurs de débit : coûteux, difficiles à calibrer.
 
